@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Struk Penyewaan Mobil"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#FFC107"
+        android:textColor="#FFFFFF" />
+
+    <!-- Nama Penyewa -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Penyewa:"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/nama_penyewa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Jenis Mobil -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Mobil:"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/jenis_mobil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Lama Sewa -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lama Sewa (Hari):"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/lama_sewa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Total Harga -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Harga:"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Uang yang Dibayar -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uang Dibayar:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/uangbayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Uang Kembali -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uang Kembali:"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/uang_kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Tombol Kembali ke Halaman Utama -->
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Kembali ke Halaman Utama"
+        android:background="#03A9F4"
+        android:textColor="#FFFFFF"
+        android:onClick="hal_utama"
+        android:backgroundTint="@color/red"
+        android:textStyle="bold" />
+
+</LinearLayout>
